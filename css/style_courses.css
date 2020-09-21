@@ -1,0 +1,109 @@
+body {
+    background: url("../img/fon_adverse.jpg")
+    no-repeat
+    center
+    top / cover;
+    background-size: 1820px 340px;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 41px;  
+    margin-left: 41px;  
+    float: left;
+    width: 100px;
+}
+
+nav {
+    float: right;
+    margin-top: 50px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 41px;
+}
+
+.menu a {
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+h1 {
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 65px;
+    text-align: center;
+}
+
+.content {
+    background-color: black;
+}
+
+.content h2 {
+    padding-top: 20px;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px white;
+    font-size: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.programms {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.programm {
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}
+
+.programm h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+}
+
+.programms:last-child {
+    float: right;
+}
+
+.programm p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
